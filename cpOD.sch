@@ -27,14 +27,14 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
 <layer number="18" name="Vias" color="1" fill="1" visible="yes" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="36" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="36" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="17" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="22" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="22" fill="1" visible="yes" active="no"/>
 <layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
 <layer number="25" name="tNames" color="36" fill="1" visible="yes" active="no"/>
 <layer number="26" name="bNames" color="34" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="23" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="22" fill="1" visible="yes" active="no"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="5" fill="1" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
@@ -55,7 +55,7 @@
 <layer number="45" name="Holes" color="35" fill="1" visible="no" active="no"/>
 <layer number="46" name="Milling" color="11" fill="1" visible="yes" active="no"/>
 <layer number="47" name="Measures" color="21" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="47" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="49" fill="1" visible="yes" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
 <layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="no"/>
@@ -1806,6 +1806,20 @@ chip</description>
 <wire x1="-1.45" y1="-0.45" x2="-1.45" y2="-1.65" width="0.254" layer="51"/>
 <wire x1="1.45" y1="-1.65" x2="1.45" y2="-0.45" width="0.254" layer="51"/>
 </package>
+<package name="ST-4">
+<smd name="3" x="0" y="3" dx="2" dy="2" layer="1"/>
+<smd name="1" x="-1.175" y="-3" dx="1.6" dy="2" layer="1"/>
+<smd name="2" x="1.175" y="-3" dx="1.6" dy="2" layer="1"/>
+<wire x1="-1.2" y1="2.2" x2="-2.5" y2="2.2" width="0.3048" layer="21"/>
+<wire x1="-2.5" y1="2.2" x2="-2.5" y2="-2.1" width="0.3048" layer="21"/>
+<wire x1="-2.5" y1="-2.1" x2="-2.2" y2="-2.1" width="0.3048" layer="21"/>
+<wire x1="1.3" y1="2.2" x2="2.5" y2="2.2" width="0.3048" layer="21"/>
+<wire x1="2.5" y1="2.2" x2="2.5" y2="-2.1" width="0.3048" layer="21"/>
+<wire x1="2.5" y1="-2.1" x2="2.2" y2="-2.1" width="0.3048" layer="21"/>
+<wire x1="-0.1" y1="-2.2" x2="0.1" y2="-2.2" width="0.3048" layer="21"/>
+<circle x="0" y="0" radius="1.4142125" width="0.3048" layer="21"/>
+<wire x1="-0.4" y1="0.5" x2="0.4" y2="-0.5" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -2745,6 +2759,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <technology name=""/>
 </technologies>
 </device>
+<device name="ETB" package="ST-4">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LM6132A" prefix="IC1">
@@ -2817,10 +2841,10 @@ By microbuilder.eu&lt;/p&gt;</description>
 <parts>
 <part name="C1" library="SPCoast" deviceset="CAP*" device="0603" value="0.1uF"/>
 <part name="C4" library="SPCoast" deviceset="CAP*" device="0603" value="0.1uF"/>
-<part name="C2" library="SPCoast" deviceset="CAP*" device="0603" value="1uF"/>
+<part name="C2" library="SPCoast" deviceset="CAP*" device="0603" value="1.0uF"/>
 <part name="C3" library="SPCoast" deviceset="CAP*" device="0603" value="0.01uF"/>
-<part name="R3" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
-<part name="R6" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
+<part name="R3" library="SPCoast" deviceset="R*" device="0603-RES" value="10K"/>
+<part name="R6" library="SPCoast" deviceset="R*" device="0603-RES" value="10K"/>
 <part name="IC1" library="SPCoast" deviceset="LM6132A" device="" value="LM358D"/>
 <part name="R4" library="SPCoast" deviceset="R*" device="0603-RES" value="200R"/>
 <part name="R5" library="SPCoast" deviceset="R*" device="0603-RES" value="1M"/>
@@ -2828,16 +2852,16 @@ By microbuilder.eu&lt;/p&gt;</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
-<part name="R8" library="SPCoast" deviceset="R*" device="0603-RES" value="1M"/>
+<part name="R9" library="SPCoast" deviceset="R*" device="0603-RES" value="10K"/>
+<part name="R7" library="SPCoast" deviceset="R*" device="0603-RES" value="1M"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
-<part name="R1" library="SPCoast" deviceset="R*" device="0603-RES" value="2.2M"/>
+<part name="R2" library="SPCoast" deviceset="R*" device="0603-RES" value="10K"/>
+<part name="R1" library="SPCoast" deviceset="R*" device="0603-RES" value="2M2"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="SPCoast" deviceset="MOSFET-N-*-?" device="SOT23" technology="2N7002" value="2N7002"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="SPCoast" deviceset="R*" device="0603-RES" value="3.3k"/>
+<part name="R10" library="SPCoast" deviceset="R*" device="0603-RES" value="3K3"/>
 <part name="LED1" library="SPCoast" deviceset="LED*" device="0603-LED" value="Y"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
@@ -2849,7 +2873,7 @@ By microbuilder.eu&lt;/p&gt;</description>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="SPCoast" deviceset="CONNECTOR-M05" device="1.56"/>
-<part name="R9" library="SPCoast" deviceset="R-POTENTIOMETER" device="TC33X" value="10k"/>
+<part name="R8" library="SPCoast" deviceset="R-POTENTIOMETER" device="ETB" value="10K"/>
 <part name="U$5" library="SPCoast" deviceset="MOUNTINGHOLE" device="L"/>
 <part name="U$6" library="SPCoast" deviceset="MOUNTINGHOLE" device="L"/>
 <part name="P+5" library="supply1" deviceset="V+" device=""/>
@@ -2861,6 +2885,8 @@ By microbuilder.eu&lt;/p&gt;</description>
 <part name="P+8" library="supply1" deviceset="V+" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="SPCoast" deviceset="CONNECTOR-M05" device="PTH"/>
+<part name="R11" library="SPCoast" deviceset="R-POTENTIOMETER" device="PT-10S" value="10K"/>
+<part name="R12" library="SPCoast" deviceset="R-POTENTIOMETER" device="TC33X" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -2998,11 +3024,11 @@ Discharge slowly</text>
 <instance part="GND3" gate="1" x="99.06" y="15.24" smashed="yes">
 <attribute name="VALUE" x="96.52" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="R" x="127" y="124.46" smashed="yes" rot="R90">
+<instance part="R9" gate="R" x="127" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.46" y="126.7714" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="125.73" y="123.952" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R8" gate="R" x="148.59" y="111.76" smashed="yes" rot="R180">
+<instance part="R7" gate="R" x="148.59" y="111.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="149.86" y="115.3414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="149.86" y="109.982" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -3030,7 +3056,7 @@ Discharge slowly</text>
 <instance part="GND7" gate="1" x="157.48" y="83.82" smashed="yes">
 <attribute name="VALUE" x="154.94" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="R" x="185.42" y="88.9" smashed="yes" rot="R90">
+<instance part="R10" gate="R" x="185.42" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.04" y="89.9414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="194.31" y="87.122" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -3067,7 +3093,7 @@ Discharge slowly</text>
 <attribute name="VALUE" x="35.56" y="132.08" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="CON1" x="17.78" y="142.24"/>
-<instance part="R9" gate="1" x="127" y="111.76" rot="MR270"/>
+<instance part="R8" gate="1" x="127" y="111.76" rot="MR270"/>
 <instance part="U$5" gate="MT1" x="241.3" y="35.56"/>
 <instance part="U$6" gate="MT1" x="231.14" y="35.56"/>
 <instance part="P+5" gate="1" x="99.06" y="35.56" smashed="yes">
@@ -3089,6 +3115,8 @@ Discharge slowly</text>
 <attribute name="VALUE" x="30.48" y="22.86" size="1.778" layer="96"/>
 </instance>
 <instance part="J2" gate="CON1" x="12.7" y="33.02"/>
+<instance part="R11" gate="1" x="127" y="111.76" rot="MR270"/>
+<instance part="R12" gate="1" x="127" y="111.76" rot="MR270"/>
 </instances>
 <busses>
 </busses>
@@ -3224,8 +3252,11 @@ Discharge slowly</text>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="R9" gate="1" pin="E"/>
+<pinref part="R8" gate="1" pin="E"/>
 <wire x1="127" y1="106.68" x2="127" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R11" gate="1" pin="E"/>
+<junction x="127" y="106.68"/>
+<pinref part="R12" gate="1" pin="E"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
@@ -3253,7 +3284,7 @@ Discharge slowly</text>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="V+"/>
-<pinref part="R10" gate="R" pin="2"/>
+<pinref part="R9" gate="R" pin="2"/>
 <wire x1="127" y1="129.54" x2="127" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3277,9 +3308,12 @@ Discharge slowly</text>
 <net name="SENS+" class="0">
 <segment>
 <wire x1="127" y1="116.84" x2="127" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R10" gate="R" pin="1"/>
+<pinref part="R9" gate="R" pin="1"/>
 <label x="124.46" y="105.41" size="1.016" layer="95" rot="R270"/>
-<pinref part="R9" gate="1" pin="A"/>
+<pinref part="R8" gate="1" pin="A"/>
+<pinref part="R11" gate="1" pin="A"/>
+<junction x="127" y="116.84"/>
+<pinref part="R12" gate="1" pin="A"/>
 </segment>
 </net>
 <net name="SENSITIVITY" class="0">
@@ -3287,12 +3321,15 @@ Discharge slowly</text>
 <wire x1="142.24" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="+IN"/>
-<pinref part="R8" gate="R" pin="2"/>
+<pinref part="R7" gate="R" pin="2"/>
 <label x="133.35" y="113.03" size="1.016" layer="95"/>
-<pinref part="R9" gate="1" pin="S"/>
+<pinref part="R8" gate="1" pin="S"/>
 <wire x1="142.24" y1="111.76" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
 <junction x="142.24" y="111.76"/>
+<pinref part="R11" gate="1" pin="S"/>
+<junction x="132.08" y="111.76"/>
+<pinref part="R12" gate="1" pin="S"/>
 </segment>
 </net>
 <net name="DETECTED" class="0">
@@ -3307,8 +3344,8 @@ Discharge slowly</text>
 <junction x="185.42" y="99.06"/>
 <pinref part="R1" gate="R" pin="2"/>
 <pinref part="IC1" gate="B" pin="OUT"/>
-<pinref part="R8" gate="R" pin="1"/>
-<pinref part="R7" gate="R" pin="2"/>
+<pinref part="R7" gate="R" pin="1"/>
+<pinref part="R10" gate="R" pin="2"/>
 <pinref part="D1" gate="G$1" pin="COM"/>
 <wire x1="185.42" y1="99.06" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
 <junction x="185.42" y="99.06"/>
@@ -3385,7 +3422,7 @@ Discharge slowly</text>
 <net name="N$11" class="0">
 <segment>
 <wire x1="185.42" y1="83.82" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R7" gate="R" pin="1"/>
+<pinref part="R10" gate="R" pin="1"/>
 <pinref part="LED1" gate="LED" pin="A"/>
 </segment>
 </net>
