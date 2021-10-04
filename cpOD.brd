@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="5" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
@@ -87,7 +87,7 @@
 <text x="48.006" y="9.398" size="0.8128" layer="21" font="vector" rot="R270">Detected</text>
 <text x="48.006" y="24.13" size="0.8128" layer="21" font="vector" rot="R270">Sensitivity</text>
 <text x="9.0678" y="3.6449" size="1.016" layer="22" font="vector" ratio="10" rot="MR180">John Plocher</text>
-<text x="7.62" y="1.397" size="0.8128" layer="21" font="vector" ratio="10">2021-09</text>
+<text x="7.62" y="1.397" size="0.8128" layer="21" font="vector" ratio="10">2021-10</text>
 <wire x1="0" y1="0" x2="0" y2="27.94" width="0" layer="20"/>
 <wire x1="0" y1="27.94" x2="50" y2="27.94" width="0" layer="20"/>
 <wire x1="50" y1="27.94" x2="50" y2="0" width="0" layer="20"/>

@@ -22,9 +22,9 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -44,11 +44,11 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -66,94 +66,8 @@
 <layer number="97" name="Info" color="5" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="Anatomie" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Hidden" color="57" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Changes" color="13" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="29" fill="4" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="bdokum" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
-<layer number="114" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="117" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="120" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Hidden" color="57" fill="4" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="14" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="146" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="147" name="Edge" color="7" fill="1" visible="no" active="yes"/>
-<layer number="148" name="ReferenceLC" color="7" fill="1" visible="no" active="yes"/>
-<layer number="149" name="ReferenceLS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="12" fill="1" visible="no" active="no"/>
-<layer number="212" name="212bmp" color="13" fill="1" visible="no" active="no"/>
-<layer number="213" name="213bmp" color="14" fill="1" visible="no" active="no"/>
-<layer number="214" name="214bmp" color="15" fill="1" visible="no" active="no"/>
-<layer number="215" name="215bmp" color="16" fill="1" visible="no" active="no"/>
-<layer number="216" name="216bmp" color="17" fill="1" visible="no" active="no"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
-<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="247" name="wrappinf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="253" name="BR-LS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -1420,194 +1334,654 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="X2X1" library="SPCoast" package="BOARD-10X10-3X2-PANEL" value="" x="0" y="0"/>
-<element name="FID-UL" library="SPCoast" package="FIDUCIAL_1MM" value="" x="10.795" y="93.345" rot="R180"/>
-<element name="FID-LR" library="SPCoast" package="FIDUCIAL_1MM" value="" x="90.17" y="5.715"/>
-<element name="C1X11" library="SPCoast" package="0603-CAP" value="1.0uF" x="15.875" y="16.764" rot="R180"/>
-<element name="C2X11" library="SPCoast" package="0603-CAP" value="0.01uF" x="26.035" y="12.954"/>
-<element name="C3X11" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="16.764"/>
-<element name="C4X11" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="11.049" rot="R180"/>
-<element name="D1X11" library="SPCoast" package="SOT23" value="BAT54A" x="20.955" y="11.684" rot="R90"/>
-<element name="D2X11" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="30.099" rot="R270"/>
-<element name="D3X11" library="SPCoast" package="SOT23" value="BAT54A" x="31.115" y="25.781" rot="R90"/>
-<element name="D4X11" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="21.844" rot="R270"/>
-<element name="FID1X11" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.905" y="33.02"/>
-<element name="FID2X11" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.625" y="9.525"/>
-<element name="IC1X11" library="SPCoast" package="SO-8" value="LM358D" x="36.195" y="13.843" rot="R270"/>
-<element name="J1X11" library="SPCoast" package="1X05" value="" x="1.524" y="17.78" rot="R90"/>
-<element name="J2X11" library="SPCoast" package="KK-156-5" value="" x="7.747" y="25.4" rot="R90"/>
-<element name="LED1X11" library="SPCoast" package="0603-LED" value="Y" x="46.99" y="15.24" rot="R90"/>
-<element name="Q1X11" library="SPCoast" package="SOT23" value="2N7002" x="16.002" y="13.589" rot="R90"/>
-<element name="R1X11" library="SPCoast" package="0603-RES" value="2M2" x="20.955" y="16.764"/>
-<element name="R2X11" library="SPCoast" package="0603-RES" value="10K" x="20.955" y="14.859"/>
-<element name="R3X11" library="SPCoast" package="0603-RES" value="10K" x="26.035" y="18.669" rot="R180"/>
-<element name="R4X11" library="SPCoast" package="0603-RES" value="200R" x="26.035" y="16.764"/>
-<element name="R5X11" library="SPCoast" package="0603-RES" value="1M" x="26.035" y="14.859" rot="R180"/>
-<element name="R6X11" library="SPCoast" package="0603-RES" value="10K" x="31.115" y="18.669" rot="R180"/>
-<element name="R7X11" library="SPCoast" package="0603-RES" value="10K" x="36.195" y="26.162" rot="R180"/>
-<element name="R8X11" library="SPCoast" package="0603-RES" value="1M" x="36.195" y="18.542" rot="R180"/>
-<element name="R9X11" library="SPCoast" package="ST-4" value="10K" x="44.45" y="23.495" rot="R270"/>
-<element name="R10X11" library="SPCoast" package="0603-RES" value="2k2" x="45.085" y="15.24" rot="R270"/>
-<element name="R11X11" library="SPCoast" package="PT-10S" value="10K" x="43.561" y="23.495" rot="R270"/>
-<element name="R12X11" library="SPCoast" package="TC33X" value="10K" x="44.577" y="23.495" rot="R270"/>
-<element name="U$1X11" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="3.81" y="11.43"/>
-<element name="U$2X11" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="39.37" y="31.75"/>
-<element name="X1X11" library="SPCoast" package="TH-T4B" value="" x="19.685" y="26.67"/>
-<element name="X2X11" library="SPCoast" package="M5300" value="" x="19.685" y="26.416" rot="R90"/>
-<element name="C1X12" library="SPCoast" package="0603-CAP" value="1.0uF" x="15.875" y="44.704" rot="R180"/>
-<element name="C2X12" library="SPCoast" package="0603-CAP" value="0.01uF" x="26.035" y="40.894"/>
-<element name="C3X12" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="44.704"/>
-<element name="C4X12" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="38.989" rot="R180"/>
-<element name="D1X12" library="SPCoast" package="SOT23" value="BAT54A" x="20.955" y="39.624" rot="R90"/>
-<element name="D2X12" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="58.039" rot="R270"/>
-<element name="D3X12" library="SPCoast" package="SOT23" value="BAT54A" x="31.115" y="53.721" rot="R90"/>
-<element name="D4X12" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="49.784" rot="R270"/>
-<element name="FID1X12" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.905" y="60.96"/>
-<element name="FID2X12" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.625" y="37.465"/>
-<element name="IC1X12" library="SPCoast" package="SO-8" value="LM358D" x="36.195" y="41.783" rot="R270"/>
-<element name="J1X12" library="SPCoast" package="1X05" value="" x="1.524" y="45.72" rot="R90"/>
-<element name="J2X12" library="SPCoast" package="KK-156-5" value="" x="7.747" y="53.34" rot="R90"/>
-<element name="LED1X12" library="SPCoast" package="0603-LED" value="Y" x="46.99" y="43.18" rot="R90"/>
-<element name="Q1X12" library="SPCoast" package="SOT23" value="2N7002" x="16.002" y="41.529" rot="R90"/>
-<element name="R1X12" library="SPCoast" package="0603-RES" value="2M2" x="20.955" y="44.704"/>
-<element name="R2X12" library="SPCoast" package="0603-RES" value="10K" x="20.955" y="42.799"/>
-<element name="R3X12" library="SPCoast" package="0603-RES" value="10K" x="26.035" y="46.609" rot="R180"/>
-<element name="R4X12" library="SPCoast" package="0603-RES" value="200R" x="26.035" y="44.704"/>
-<element name="R5X12" library="SPCoast" package="0603-RES" value="1M" x="26.035" y="42.799" rot="R180"/>
-<element name="R6X12" library="SPCoast" package="0603-RES" value="10K" x="31.115" y="46.609" rot="R180"/>
-<element name="R7X12" library="SPCoast" package="0603-RES" value="10K" x="36.195" y="54.102" rot="R180"/>
-<element name="R8X12" library="SPCoast" package="0603-RES" value="1M" x="36.195" y="46.482" rot="R180"/>
-<element name="R9X12" library="SPCoast" package="ST-4" value="10K" x="44.45" y="51.435" rot="R270"/>
-<element name="R10X12" library="SPCoast" package="0603-RES" value="2k2" x="45.085" y="43.18" rot="R270"/>
-<element name="R11X12" library="SPCoast" package="PT-10S" value="10K" x="43.561" y="51.435" rot="R270"/>
-<element name="R12X12" library="SPCoast" package="TC33X" value="10K" x="44.577" y="51.435" rot="R270"/>
-<element name="U$1X12" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="3.81" y="39.37"/>
-<element name="U$2X12" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="39.37" y="59.69"/>
-<element name="X1X12" library="SPCoast" package="TH-T4B" value="" x="19.685" y="54.61"/>
-<element name="X2X12" library="SPCoast" package="M5300" value="" x="19.685" y="54.356" rot="R90"/>
-<element name="C1X13" library="SPCoast" package="0603-CAP" value="1.0uF" x="15.875" y="72.644" rot="R180"/>
-<element name="C2X13" library="SPCoast" package="0603-CAP" value="0.01uF" x="26.035" y="68.834"/>
-<element name="C3X13" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="72.644"/>
-<element name="C4X13" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="66.929" rot="R180"/>
-<element name="D1X13" library="SPCoast" package="SOT23" value="BAT54A" x="20.955" y="67.564" rot="R90"/>
-<element name="D2X13" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="85.979" rot="R270"/>
-<element name="D3X13" library="SPCoast" package="SOT23" value="BAT54A" x="31.115" y="81.661" rot="R90"/>
-<element name="D4X13" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="77.724" rot="R270"/>
-<element name="FID1X13" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.905" y="88.9"/>
-<element name="FID2X13" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.625" y="65.405"/>
-<element name="IC1X13" library="SPCoast" package="SO-8" value="LM358D" x="36.195" y="69.723" rot="R270"/>
-<element name="J1X13" library="SPCoast" package="1X05" value="" x="1.524" y="73.66" rot="R90"/>
-<element name="J2X13" library="SPCoast" package="KK-156-5" value="" x="7.747" y="81.28" rot="R90"/>
-<element name="LED1X13" library="SPCoast" package="0603-LED" value="Y" x="46.99" y="71.12" rot="R90"/>
-<element name="Q1X13" library="SPCoast" package="SOT23" value="2N7002" x="16.002" y="69.469" rot="R90"/>
-<element name="R1X13" library="SPCoast" package="0603-RES" value="2M2" x="20.955" y="72.644"/>
-<element name="R2X13" library="SPCoast" package="0603-RES" value="10K" x="20.955" y="70.739"/>
-<element name="R3X13" library="SPCoast" package="0603-RES" value="10K" x="26.035" y="74.549" rot="R180"/>
-<element name="R4X13" library="SPCoast" package="0603-RES" value="200R" x="26.035" y="72.644"/>
-<element name="R5X13" library="SPCoast" package="0603-RES" value="1M" x="26.035" y="70.739" rot="R180"/>
-<element name="R6X13" library="SPCoast" package="0603-RES" value="10K" x="31.115" y="74.549" rot="R180"/>
-<element name="R7X13" library="SPCoast" package="0603-RES" value="10K" x="36.195" y="82.042" rot="R180"/>
-<element name="R8X13" library="SPCoast" package="0603-RES" value="1M" x="36.195" y="74.422" rot="R180"/>
-<element name="R9X13" library="SPCoast" package="ST-4" value="10K" x="44.45" y="79.375" rot="R270"/>
-<element name="R10X13" library="SPCoast" package="0603-RES" value="2k2" x="45.085" y="71.12" rot="R270"/>
-<element name="R11X13" library="SPCoast" package="PT-10S" value="10K" x="43.561" y="79.375" rot="R270"/>
-<element name="R12X13" library="SPCoast" package="TC33X" value="10K" x="44.577" y="79.375" rot="R270"/>
-<element name="U$1X13" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="3.81" y="67.31"/>
-<element name="U$2X13" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="39.37" y="87.63"/>
-<element name="X1X13" library="SPCoast" package="TH-T4B" value="" x="19.685" y="82.55"/>
-<element name="X2X13" library="SPCoast" package="M5300" value="" x="19.685" y="82.296" rot="R90"/>
-<element name="C1X21" library="SPCoast" package="0603-CAP" value="1.0uF" x="65.875" y="16.764" rot="R180"/>
-<element name="C2X21" library="SPCoast" package="0603-CAP" value="0.01uF" x="76.035" y="12.954"/>
-<element name="C3X21" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="16.764"/>
-<element name="C4X21" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="11.049" rot="R180"/>
-<element name="D1X21" library="SPCoast" package="SOT23" value="BAT54A" x="70.955" y="11.684" rot="R90"/>
-<element name="D2X21" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="30.099" rot="R270"/>
-<element name="D3X21" library="SPCoast" package="SOT23" value="BAT54A" x="81.115" y="25.781" rot="R90"/>
-<element name="D4X21" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="21.844" rot="R270"/>
-<element name="FID1X21" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="51.905" y="33.02"/>
-<element name="FID2X21" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.625" y="9.525"/>
-<element name="IC1X21" library="SPCoast" package="SO-8" value="LM358D" x="86.195" y="13.843" rot="R270"/>
-<element name="J1X21" library="SPCoast" package="1X05" value="" x="51.524" y="17.78" rot="R90"/>
-<element name="J2X21" library="SPCoast" package="KK-156-5" value="" x="57.747" y="25.4" rot="R90"/>
-<element name="LED1X21" library="SPCoast" package="0603-LED" value="Y" x="96.99" y="15.24" rot="R90"/>
-<element name="Q1X21" library="SPCoast" package="SOT23" value="2N7002" x="66.002" y="13.589" rot="R90"/>
-<element name="R1X21" library="SPCoast" package="0603-RES" value="2M2" x="70.955" y="16.764"/>
-<element name="R2X21" library="SPCoast" package="0603-RES" value="10K" x="70.955" y="14.859"/>
-<element name="R3X21" library="SPCoast" package="0603-RES" value="10K" x="76.035" y="18.669" rot="R180"/>
-<element name="R4X21" library="SPCoast" package="0603-RES" value="200R" x="76.035" y="16.764"/>
-<element name="R5X21" library="SPCoast" package="0603-RES" value="1M" x="76.035" y="14.859" rot="R180"/>
-<element name="R6X21" library="SPCoast" package="0603-RES" value="10K" x="81.115" y="18.669" rot="R180"/>
-<element name="R7X21" library="SPCoast" package="0603-RES" value="10K" x="86.195" y="26.162" rot="R180"/>
-<element name="R8X21" library="SPCoast" package="0603-RES" value="1M" x="86.195" y="18.542" rot="R180"/>
-<element name="R9X21" library="SPCoast" package="ST-4" value="10K" x="94.45" y="23.495" rot="R270"/>
-<element name="R10X21" library="SPCoast" package="0603-RES" value="2k2" x="95.085" y="15.24" rot="R270"/>
-<element name="R11X21" library="SPCoast" package="PT-10S" value="10K" x="93.561" y="23.495" rot="R270"/>
-<element name="R12X21" library="SPCoast" package="TC33X" value="10K" x="94.577" y="23.495" rot="R270"/>
-<element name="U$1X21" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="53.81" y="11.43"/>
-<element name="U$2X21" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="89.37" y="31.75"/>
-<element name="X1X21" library="SPCoast" package="TH-T4B" value="" x="69.685" y="26.67"/>
-<element name="X2X21" library="SPCoast" package="M5300" value="" x="69.685" y="26.416" rot="R90"/>
-<element name="C1X22" library="SPCoast" package="0603-CAP" value="1.0uF" x="65.875" y="44.704" rot="R180"/>
-<element name="C2X22" library="SPCoast" package="0603-CAP" value="0.01uF" x="76.035" y="40.894"/>
-<element name="C3X22" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="44.704"/>
-<element name="C4X22" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="38.989" rot="R180"/>
-<element name="D1X22" library="SPCoast" package="SOT23" value="BAT54A" x="70.955" y="39.624" rot="R90"/>
-<element name="D2X22" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="58.039" rot="R270"/>
-<element name="D3X22" library="SPCoast" package="SOT23" value="BAT54A" x="81.115" y="53.721" rot="R90"/>
-<element name="D4X22" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="49.784" rot="R270"/>
-<element name="FID1X22" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="51.905" y="60.96"/>
-<element name="FID2X22" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.625" y="37.465"/>
-<element name="IC1X22" library="SPCoast" package="SO-8" value="LM358D" x="86.195" y="41.783" rot="R270"/>
-<element name="J1X22" library="SPCoast" package="1X05" value="" x="51.524" y="45.72" rot="R90"/>
-<element name="J2X22" library="SPCoast" package="KK-156-5" value="" x="57.747" y="53.34" rot="R90"/>
-<element name="LED1X22" library="SPCoast" package="0603-LED" value="Y" x="96.99" y="43.18" rot="R90"/>
-<element name="Q1X22" library="SPCoast" package="SOT23" value="2N7002" x="66.002" y="41.529" rot="R90"/>
-<element name="R1X22" library="SPCoast" package="0603-RES" value="2M2" x="70.955" y="44.704"/>
-<element name="R2X22" library="SPCoast" package="0603-RES" value="10K" x="70.955" y="42.799"/>
-<element name="R3X22" library="SPCoast" package="0603-RES" value="10K" x="76.035" y="46.609" rot="R180"/>
-<element name="R4X22" library="SPCoast" package="0603-RES" value="200R" x="76.035" y="44.704"/>
-<element name="R5X22" library="SPCoast" package="0603-RES" value="1M" x="76.035" y="42.799" rot="R180"/>
-<element name="R6X22" library="SPCoast" package="0603-RES" value="10K" x="81.115" y="46.609" rot="R180"/>
-<element name="R7X22" library="SPCoast" package="0603-RES" value="10K" x="86.195" y="54.102" rot="R180"/>
-<element name="R8X22" library="SPCoast" package="0603-RES" value="1M" x="86.195" y="46.482" rot="R180"/>
-<element name="R9X22" library="SPCoast" package="ST-4" value="10K" x="94.45" y="51.435" rot="R270"/>
-<element name="R10X22" library="SPCoast" package="0603-RES" value="2k2" x="95.085" y="43.18" rot="R270"/>
-<element name="R11X22" library="SPCoast" package="PT-10S" value="10K" x="93.561" y="51.435" rot="R270"/>
-<element name="R12X22" library="SPCoast" package="TC33X" value="10K" x="94.577" y="51.435" rot="R270"/>
-<element name="U$1X22" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="53.81" y="39.37"/>
-<element name="U$2X22" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="89.37" y="59.69"/>
-<element name="X1X22" library="SPCoast" package="TH-T4B" value="" x="69.685" y="54.61"/>
-<element name="X2X22" library="SPCoast" package="M5300" value="" x="69.685" y="54.356" rot="R90"/>
-<element name="C1X23" library="SPCoast" package="0603-CAP" value="1.0uF" x="65.875" y="72.644" rot="R180"/>
-<element name="C2X23" library="SPCoast" package="0603-CAP" value="0.01uF" x="76.035" y="68.834"/>
-<element name="C3X23" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="72.644"/>
-<element name="C4X23" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="66.929" rot="R180"/>
-<element name="D1X23" library="SPCoast" package="SOT23" value="BAT54A" x="70.955" y="67.564" rot="R90"/>
-<element name="D2X23" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="85.979" rot="R270"/>
-<element name="D3X23" library="SPCoast" package="SOT23" value="BAT54A" x="81.115" y="81.661" rot="R90"/>
-<element name="D4X23" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="77.724" rot="R270"/>
-<element name="FID1X23" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="51.905" y="88.9"/>
-<element name="FID2X23" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.625" y="65.405"/>
-<element name="IC1X23" library="SPCoast" package="SO-8" value="LM358D" x="86.195" y="69.723" rot="R270"/>
-<element name="J1X23" library="SPCoast" package="1X05" value="" x="51.524" y="73.66" rot="R90"/>
-<element name="J2X23" library="SPCoast" package="KK-156-5" value="" x="57.747" y="81.28" rot="R90"/>
-<element name="LED1X23" library="SPCoast" package="0603-LED" value="Y" x="96.99" y="71.12" rot="R90"/>
-<element name="Q1X23" library="SPCoast" package="SOT23" value="2N7002" x="66.002" y="69.469" rot="R90"/>
-<element name="R1X23" library="SPCoast" package="0603-RES" value="2M2" x="70.955" y="72.644"/>
-<element name="R2X23" library="SPCoast" package="0603-RES" value="10K" x="70.955" y="70.739"/>
-<element name="R3X23" library="SPCoast" package="0603-RES" value="10K" x="76.035" y="74.549" rot="R180"/>
-<element name="R4X23" library="SPCoast" package="0603-RES" value="200R" x="76.035" y="72.644"/>
-<element name="R5X23" library="SPCoast" package="0603-RES" value="1M" x="76.035" y="70.739" rot="R180"/>
-<element name="R6X23" library="SPCoast" package="0603-RES" value="10K" x="81.115" y="74.549" rot="R180"/>
-<element name="R7X23" library="SPCoast" package="0603-RES" value="10K" x="86.195" y="82.042" rot="R180"/>
-<element name="R8X23" library="SPCoast" package="0603-RES" value="1M" x="86.195" y="74.422" rot="R180"/>
-<element name="R9X23" library="SPCoast" package="ST-4" value="10K" x="94.45" y="79.375" rot="R270"/>
-<element name="R10X23" library="SPCoast" package="0603-RES" value="2k2" x="95.085" y="71.12" rot="R270"/>
-<element name="R11X23" library="SPCoast" package="PT-10S" value="10K" x="93.561" y="79.375" rot="R270"/>
-<element name="R12X23" library="SPCoast" package="TC33X" value="10K" x="94.577" y="79.375" rot="R270"/>
-<element name="U$1X23" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="53.81" y="67.31"/>
-<element name="U$2X23" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="89.37" y="87.63"/>
-<element name="X1X23" library="SPCoast" package="TH-T4B" value="" x="69.685" y="82.55"/>
-<element name="X2X23" library="SPCoast" package="M5300" value="" x="69.685" y="82.296" rot="R90"/>
+<element name="FID-UL" library="SPCoast" package="FIDUCIAL_1MM" value="" x="10.795" y="93.345" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.7" y="95.885" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="FID-LR" library="SPCoast" package="FIDUCIAL_1MM" value="" x="90.17" y="5.715" smashed="yes">
+<attribute name="NAME" x="88.265" y="3.175" size="0.4064" layer="25"/>
+</element>
+<element name="C1X11" library="SPCoast" package="0603-CAP" value="1.0uF" x="15.875" y="16.764" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.145" y="15.494" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="17.145" y="18.669" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C2X11" library="SPCoast" package="0603-CAP" value="0.01uF" x="26.035" y="12.954" smashed="yes">
+<attribute name="NAME" x="24.765" y="14.224" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="24.765" y="11.049" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C3X11" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="16.764" smashed="yes">
+<attribute name="NAME" x="29.845" y="18.034" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="29.845" y="14.859" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C4X11" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="11.049" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.385" y="9.779" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="32.385" y="12.954" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="D1X11" library="SPCoast" package="SOT23" value="BAT54A" x="20.955" y="11.684" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.05" y="9.779" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="24.13" y="9.779" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D2X11" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="30.099" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.02" y="32.004" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="27.94" y="32.004" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="D3X11" library="SPCoast" package="SOT23" value="BAT54A" x="31.115" y="25.781" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.21" y="23.876" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="34.29" y="23.876" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D4X11" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="21.844" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.02" y="23.749" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="27.94" y="23.749" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="FID1X11" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.905" y="33.02" smashed="yes">
+<attribute name="NAME" x="0" y="30.48" size="0.4064" layer="25"/>
+</element>
+<element name="FID2X11" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.625" y="9.525" smashed="yes">
+<attribute name="NAME" x="45.72" y="6.985" size="0.4064" layer="25"/>
+</element>
+<element name="IC1X11" library="SPCoast" package="SO-8" value="LM358D" x="36.195" y="13.843" smashed="yes" rot="R270">
+<attribute name="VALUE" x="32.1945" y="15.875" size="0.4064" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="38.9255" y="15.875" size="0.4064" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J1X11" library="SPCoast" package="1X05" value="" x="1.524" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="-0.3048" y="16.4338" size="0.4064" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="16.51" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J2X11" library="SPCoast" package="KK-156-5" value="" x="7.747" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.652" y="14.98" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="9.652" y="37.09" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="LED1X11" library="SPCoast" package="0603-LED" value="Y" x="46.99" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.72" y="13.97" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="49.53" y="13.97" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q1X11" library="SPCoast" package="SOT23" value="2N7002" x="16.002" y="13.589" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.097" y="11.684" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="19.177" y="11.684" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R1X11" library="SPCoast" package="0603-RES" value="2M2" x="20.955" y="16.764" smashed="yes">
+<attribute name="NAME" x="19.685" y="18.034" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.685" y="14.859" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R2X11" library="SPCoast" package="0603-RES" value="10K" x="20.955" y="14.859" smashed="yes">
+<attribute name="NAME" x="19.685" y="16.129" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.685" y="12.954" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R3X11" library="SPCoast" package="0603-RES" value="10K" x="26.035" y="18.669" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.305" y="17.399" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="27.305" y="20.574" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R4X11" library="SPCoast" package="0603-RES" value="200R" x="26.035" y="16.764" smashed="yes">
+<attribute name="NAME" x="24.765" y="18.034" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="24.765" y="14.859" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R5X11" library="SPCoast" package="0603-RES" value="1M" x="26.035" y="14.859" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.305" y="13.589" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="27.305" y="16.764" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R6X11" library="SPCoast" package="0603-RES" value="10K" x="31.115" y="18.669" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.385" y="17.399" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="32.385" y="20.574" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R7X11" library="SPCoast" package="0603-RES" value="10K" x="36.195" y="26.162" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.465" y="24.892" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.465" y="28.067" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R8X11" library="SPCoast" package="0603-RES" value="1M" x="36.195" y="18.542" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.465" y="17.272" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.465" y="20.447" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R9X11" library="SPCoast" package="ST-4" value="10K" x="44.45" y="23.495" smashed="yes" rot="R270"/>
+<element name="R10X11" library="SPCoast" package="0603-RES" value="2k2" x="45.085" y="15.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.355" y="16.51" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="43.18" y="16.51" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R11X11" library="SPCoast" package="PT-10S" value="10K" x="43.561" y="23.495" smashed="yes" rot="R270">
+<attribute name="NAME" x="47.3456" y="26.035" size="0.4064" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="39.3446" y="26.035" size="0.4064" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R12X11" library="SPCoast" package="TC33X" value="10K" x="44.577" y="23.495" smashed="yes" rot="R270">
+<attribute name="NAME" x="42.672" y="25.4" size="0.4064" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="42.672" y="20.955" size="0.4064" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="U$1X11" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="3.81" y="11.43" smashed="yes"/>
+<element name="U$2X11" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="39.37" y="31.75" smashed="yes"/>
+<element name="X1X11" library="SPCoast" package="TH-T4B" value="" x="19.685" y="26.67" smashed="yes"/>
+<element name="X2X11" library="SPCoast" package="M5300" value="" x="19.685" y="26.416" smashed="yes" rot="R90"/>
+<element name="C1X12" library="SPCoast" package="0603-CAP" value="1.0uF" x="15.875" y="44.704" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.145" y="43.434" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="17.145" y="46.609" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C2X12" library="SPCoast" package="0603-CAP" value="0.01uF" x="26.035" y="40.894" smashed="yes">
+<attribute name="NAME" x="24.765" y="42.164" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="24.765" y="38.989" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C3X12" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="44.704" smashed="yes">
+<attribute name="NAME" x="29.845" y="45.974" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="29.845" y="42.799" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C4X12" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="38.989" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.385" y="37.719" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="32.385" y="40.894" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="D1X12" library="SPCoast" package="SOT23" value="BAT54A" x="20.955" y="39.624" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.05" y="37.719" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="24.13" y="37.719" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D2X12" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="58.039" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.02" y="59.944" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="27.94" y="59.944" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="D3X12" library="SPCoast" package="SOT23" value="BAT54A" x="31.115" y="53.721" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.21" y="51.816" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="34.29" y="51.816" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D4X12" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="49.784" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.02" y="51.689" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="27.94" y="51.689" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="FID1X12" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.905" y="60.96" smashed="yes">
+<attribute name="NAME" x="0" y="58.42" size="0.4064" layer="25"/>
+</element>
+<element name="FID2X12" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.625" y="37.465" smashed="yes">
+<attribute name="NAME" x="45.72" y="34.925" size="0.4064" layer="25"/>
+</element>
+<element name="IC1X12" library="SPCoast" package="SO-8" value="LM358D" x="36.195" y="41.783" smashed="yes" rot="R270">
+<attribute name="VALUE" x="32.1945" y="43.815" size="0.4064" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="38.9255" y="43.815" size="0.4064" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J1X12" library="SPCoast" package="1X05" value="" x="1.524" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="-0.3048" y="44.3738" size="0.4064" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="44.45" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J2X12" library="SPCoast" package="KK-156-5" value="" x="7.747" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.652" y="42.92" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="9.652" y="65.03" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="LED1X12" library="SPCoast" package="0603-LED" value="Y" x="46.99" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.72" y="41.91" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="49.53" y="41.91" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q1X12" library="SPCoast" package="SOT23" value="2N7002" x="16.002" y="41.529" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.097" y="39.624" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="19.177" y="39.624" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R1X12" library="SPCoast" package="0603-RES" value="2M2" x="20.955" y="44.704" smashed="yes">
+<attribute name="NAME" x="19.685" y="45.974" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.685" y="42.799" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R2X12" library="SPCoast" package="0603-RES" value="10K" x="20.955" y="42.799" smashed="yes">
+<attribute name="NAME" x="19.685" y="44.069" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.685" y="40.894" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R3X12" library="SPCoast" package="0603-RES" value="10K" x="26.035" y="46.609" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.305" y="45.339" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="27.305" y="48.514" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R4X12" library="SPCoast" package="0603-RES" value="200R" x="26.035" y="44.704" smashed="yes">
+<attribute name="NAME" x="24.765" y="45.974" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="24.765" y="42.799" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R5X12" library="SPCoast" package="0603-RES" value="1M" x="26.035" y="42.799" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.305" y="41.529" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="27.305" y="44.704" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R6X12" library="SPCoast" package="0603-RES" value="10K" x="31.115" y="46.609" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.385" y="45.339" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="32.385" y="48.514" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R7X12" library="SPCoast" package="0603-RES" value="10K" x="36.195" y="54.102" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.465" y="52.832" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.465" y="56.007" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R8X12" library="SPCoast" package="0603-RES" value="1M" x="36.195" y="46.482" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.465" y="45.212" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.465" y="48.387" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R9X12" library="SPCoast" package="ST-4" value="10K" x="44.45" y="51.435" smashed="yes" rot="R270"/>
+<element name="R10X12" library="SPCoast" package="0603-RES" value="2k2" x="45.085" y="43.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.355" y="44.45" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="43.18" y="44.45" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R11X12" library="SPCoast" package="PT-10S" value="10K" x="43.561" y="51.435" smashed="yes" rot="R270">
+<attribute name="NAME" x="47.3456" y="53.975" size="0.4064" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="39.3446" y="53.975" size="0.4064" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R12X12" library="SPCoast" package="TC33X" value="10K" x="44.577" y="51.435" smashed="yes" rot="R270">
+<attribute name="NAME" x="42.672" y="53.34" size="0.4064" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="42.672" y="48.895" size="0.4064" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="U$1X12" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="3.81" y="39.37" smashed="yes"/>
+<element name="U$2X12" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="39.37" y="59.69" smashed="yes"/>
+<element name="X1X12" library="SPCoast" package="TH-T4B" value="" x="19.685" y="54.61" smashed="yes"/>
+<element name="X2X12" library="SPCoast" package="M5300" value="" x="19.685" y="54.356" smashed="yes" rot="R90"/>
+<element name="C1X13" library="SPCoast" package="0603-CAP" value="1.0uF" x="15.875" y="72.644" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.145" y="71.374" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="17.145" y="74.549" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C2X13" library="SPCoast" package="0603-CAP" value="0.01uF" x="26.035" y="68.834" smashed="yes">
+<attribute name="NAME" x="24.765" y="70.104" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="24.765" y="66.929" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C3X13" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="72.644" smashed="yes">
+<attribute name="NAME" x="29.845" y="73.914" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="29.845" y="70.739" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C4X13" library="SPCoast" package="0603-CAP" value="0.1uF" x="31.115" y="66.929" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.385" y="65.659" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="32.385" y="68.834" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="D1X13" library="SPCoast" package="SOT23" value="BAT54A" x="20.955" y="67.564" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.05" y="65.659" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="24.13" y="65.659" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D2X13" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="85.979" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.02" y="87.884" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="27.94" y="87.884" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="D3X13" library="SPCoast" package="SOT23" value="BAT54A" x="31.115" y="81.661" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.21" y="79.756" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="34.29" y="79.756" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D4X13" library="SPCoast" package="SOT23" value="BAT54C" x="31.115" y="77.724" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.02" y="79.629" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="27.94" y="79.629" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="FID1X13" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.905" y="88.9" smashed="yes">
+<attribute name="NAME" x="0" y="86.36" size="0.4064" layer="25"/>
+</element>
+<element name="FID2X13" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="47.625" y="65.405" smashed="yes">
+<attribute name="NAME" x="45.72" y="62.865" size="0.4064" layer="25"/>
+</element>
+<element name="IC1X13" library="SPCoast" package="SO-8" value="LM358D" x="36.195" y="69.723" smashed="yes" rot="R270">
+<attribute name="VALUE" x="32.1945" y="71.755" size="0.4064" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="38.9255" y="71.755" size="0.4064" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J1X13" library="SPCoast" package="1X05" value="" x="1.524" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="-0.3048" y="72.3138" size="0.4064" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="72.39" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J2X13" library="SPCoast" package="KK-156-5" value="" x="7.747" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.652" y="70.86" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="9.652" y="92.97" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="LED1X13" library="SPCoast" package="0603-LED" value="Y" x="46.99" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.72" y="69.85" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="49.53" y="69.85" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q1X13" library="SPCoast" package="SOT23" value="2N7002" x="16.002" y="69.469" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.097" y="67.564" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="19.177" y="67.564" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R1X13" library="SPCoast" package="0603-RES" value="2M2" x="20.955" y="72.644" smashed="yes">
+<attribute name="NAME" x="19.685" y="73.914" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.685" y="70.739" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R2X13" library="SPCoast" package="0603-RES" value="10K" x="20.955" y="70.739" smashed="yes">
+<attribute name="NAME" x="19.685" y="72.009" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.685" y="68.834" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R3X13" library="SPCoast" package="0603-RES" value="10K" x="26.035" y="74.549" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.305" y="73.279" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="27.305" y="76.454" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R4X13" library="SPCoast" package="0603-RES" value="200R" x="26.035" y="72.644" smashed="yes">
+<attribute name="NAME" x="24.765" y="73.914" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="24.765" y="70.739" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R5X13" library="SPCoast" package="0603-RES" value="1M" x="26.035" y="70.739" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.305" y="69.469" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="27.305" y="72.644" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R6X13" library="SPCoast" package="0603-RES" value="10K" x="31.115" y="74.549" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.385" y="73.279" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="32.385" y="76.454" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R7X13" library="SPCoast" package="0603-RES" value="10K" x="36.195" y="82.042" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.465" y="80.772" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.465" y="83.947" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R8X13" library="SPCoast" package="0603-RES" value="1M" x="36.195" y="74.422" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.465" y="73.152" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.465" y="76.327" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R9X13" library="SPCoast" package="ST-4" value="10K" x="44.45" y="79.375" smashed="yes" rot="R270"/>
+<element name="R10X13" library="SPCoast" package="0603-RES" value="2k2" x="45.085" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.355" y="72.39" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="43.18" y="72.39" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R11X13" library="SPCoast" package="PT-10S" value="10K" x="43.561" y="79.375" smashed="yes" rot="R270">
+<attribute name="NAME" x="47.3456" y="81.915" size="0.4064" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="39.3446" y="81.915" size="0.4064" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R12X13" library="SPCoast" package="TC33X" value="10K" x="44.577" y="79.375" smashed="yes" rot="R270">
+<attribute name="NAME" x="42.672" y="81.28" size="0.4064" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="42.672" y="76.835" size="0.4064" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="U$1X13" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="3.81" y="67.31" smashed="yes"/>
+<element name="U$2X13" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="39.37" y="87.63" smashed="yes"/>
+<element name="X1X13" library="SPCoast" package="TH-T4B" value="" x="19.685" y="82.55" smashed="yes"/>
+<element name="X2X13" library="SPCoast" package="M5300" value="" x="19.685" y="82.296" smashed="yes" rot="R90"/>
+<element name="C1X21" library="SPCoast" package="0603-CAP" value="1.0uF" x="65.875" y="16.764" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.145" y="15.494" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="67.145" y="18.669" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C2X21" library="SPCoast" package="0603-CAP" value="0.01uF" x="76.035" y="12.954" smashed="yes">
+<attribute name="NAME" x="74.765" y="14.224" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="74.765" y="11.049" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C3X21" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="16.764" smashed="yes">
+<attribute name="NAME" x="79.845" y="18.034" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="79.845" y="14.859" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C4X21" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="11.049" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.385" y="9.779" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="82.385" y="12.954" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="D1X21" library="SPCoast" package="SOT23" value="BAT54A" x="70.955" y="11.684" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.05" y="9.779" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="74.13" y="9.779" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D2X21" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="30.099" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.02" y="32.004" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="77.94" y="32.004" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="D3X21" library="SPCoast" package="SOT23" value="BAT54A" x="81.115" y="25.781" smashed="yes" rot="R90">
+<attribute name="NAME" x="79.21" y="23.876" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.29" y="23.876" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D4X21" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="21.844" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.02" y="23.749" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="77.94" y="23.749" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="FID1X21" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="51.905" y="33.02" smashed="yes">
+<attribute name="NAME" x="50" y="30.48" size="0.4064" layer="25"/>
+</element>
+<element name="FID2X21" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.625" y="9.525" smashed="yes">
+<attribute name="NAME" x="95.72" y="6.985" size="0.4064" layer="25"/>
+</element>
+<element name="IC1X21" library="SPCoast" package="SO-8" value="LM358D" x="86.195" y="13.843" smashed="yes" rot="R270">
+<attribute name="VALUE" x="82.1945" y="15.875" size="0.4064" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="88.9255" y="15.875" size="0.4064" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J1X21" library="SPCoast" package="1X05" value="" x="51.524" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.6952" y="16.4338" size="0.4064" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="54.699" y="16.51" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J2X21" library="SPCoast" package="KK-156-5" value="" x="57.747" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.652" y="14.98" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="59.652" y="37.09" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="LED1X21" library="SPCoast" package="0603-LED" value="Y" x="96.99" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.72" y="13.97" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="99.53" y="13.97" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q1X21" library="SPCoast" package="SOT23" value="2N7002" x="66.002" y="13.589" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.097" y="11.684" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="69.177" y="11.684" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R1X21" library="SPCoast" package="0603-RES" value="2M2" x="70.955" y="16.764" smashed="yes">
+<attribute name="NAME" x="69.685" y="18.034" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="69.685" y="14.859" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R2X21" library="SPCoast" package="0603-RES" value="10K" x="70.955" y="14.859" smashed="yes">
+<attribute name="NAME" x="69.685" y="16.129" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="69.685" y="12.954" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R3X21" library="SPCoast" package="0603-RES" value="10K" x="76.035" y="18.669" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.305" y="17.399" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="77.305" y="20.574" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R4X21" library="SPCoast" package="0603-RES" value="200R" x="76.035" y="16.764" smashed="yes">
+<attribute name="NAME" x="74.765" y="18.034" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="74.765" y="14.859" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R5X21" library="SPCoast" package="0603-RES" value="1M" x="76.035" y="14.859" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.305" y="13.589" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="77.305" y="16.764" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R6X21" library="SPCoast" package="0603-RES" value="10K" x="81.115" y="18.669" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.385" y="17.399" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="82.385" y="20.574" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R7X21" library="SPCoast" package="0603-RES" value="10K" x="86.195" y="26.162" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.465" y="24.892" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="87.465" y="28.067" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R8X21" library="SPCoast" package="0603-RES" value="1M" x="86.195" y="18.542" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.465" y="17.272" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="87.465" y="20.447" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R9X21" library="SPCoast" package="ST-4" value="10K" x="94.45" y="23.495" smashed="yes" rot="R270"/>
+<element name="R10X21" library="SPCoast" package="0603-RES" value="2k2" x="95.085" y="15.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.355" y="16.51" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="93.18" y="16.51" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R11X21" library="SPCoast" package="PT-10S" value="10K" x="93.561" y="23.495" smashed="yes" rot="R270">
+<attribute name="NAME" x="97.3456" y="26.035" size="0.4064" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="89.3446" y="26.035" size="0.4064" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R12X21" library="SPCoast" package="TC33X" value="10K" x="94.577" y="23.495" smashed="yes" rot="R270">
+<attribute name="NAME" x="92.672" y="25.4" size="0.4064" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="92.672" y="20.955" size="0.4064" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="U$1X21" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="53.81" y="11.43" smashed="yes"/>
+<element name="U$2X21" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="89.37" y="31.75" smashed="yes"/>
+<element name="X1X21" library="SPCoast" package="TH-T4B" value="" x="69.685" y="26.67" smashed="yes"/>
+<element name="X2X21" library="SPCoast" package="M5300" value="" x="69.685" y="26.416" smashed="yes" rot="R90"/>
+<element name="C1X22" library="SPCoast" package="0603-CAP" value="1.0uF" x="65.875" y="44.704" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.145" y="43.434" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="67.145" y="46.609" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C2X22" library="SPCoast" package="0603-CAP" value="0.01uF" x="76.035" y="40.894" smashed="yes">
+<attribute name="NAME" x="74.765" y="42.164" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="74.765" y="38.989" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C3X22" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="44.704" smashed="yes">
+<attribute name="NAME" x="79.845" y="45.974" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="79.845" y="42.799" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C4X22" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="38.989" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.385" y="37.719" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="82.385" y="40.894" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="D1X22" library="SPCoast" package="SOT23" value="BAT54A" x="70.955" y="39.624" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.05" y="37.719" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="74.13" y="37.719" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D2X22" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="58.039" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.02" y="59.944" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="77.94" y="59.944" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="D3X22" library="SPCoast" package="SOT23" value="BAT54A" x="81.115" y="53.721" smashed="yes" rot="R90">
+<attribute name="NAME" x="79.21" y="51.816" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.29" y="51.816" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D4X22" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="49.784" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.02" y="51.689" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="77.94" y="51.689" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="FID1X22" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="51.905" y="60.96" smashed="yes">
+<attribute name="NAME" x="50" y="58.42" size="0.4064" layer="25"/>
+</element>
+<element name="FID2X22" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.625" y="37.465" smashed="yes">
+<attribute name="NAME" x="95.72" y="34.925" size="0.4064" layer="25"/>
+</element>
+<element name="IC1X22" library="SPCoast" package="SO-8" value="LM358D" x="86.195" y="41.783" smashed="yes" rot="R270">
+<attribute name="VALUE" x="82.1945" y="43.815" size="0.4064" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="88.9255" y="43.815" size="0.4064" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J1X22" library="SPCoast" package="1X05" value="" x="51.524" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.6952" y="44.3738" size="0.4064" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="54.699" y="44.45" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J2X22" library="SPCoast" package="KK-156-5" value="" x="57.747" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.652" y="42.92" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="59.652" y="65.03" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="LED1X22" library="SPCoast" package="0603-LED" value="Y" x="96.99" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.72" y="41.91" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="99.53" y="41.91" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q1X22" library="SPCoast" package="SOT23" value="2N7002" x="66.002" y="41.529" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.097" y="39.624" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="69.177" y="39.624" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R1X22" library="SPCoast" package="0603-RES" value="2M2" x="70.955" y="44.704" smashed="yes">
+<attribute name="NAME" x="69.685" y="45.974" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="69.685" y="42.799" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R2X22" library="SPCoast" package="0603-RES" value="10K" x="70.955" y="42.799" smashed="yes">
+<attribute name="NAME" x="69.685" y="44.069" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="69.685" y="40.894" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R3X22" library="SPCoast" package="0603-RES" value="10K" x="76.035" y="46.609" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.305" y="45.339" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="77.305" y="48.514" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R4X22" library="SPCoast" package="0603-RES" value="200R" x="76.035" y="44.704" smashed="yes">
+<attribute name="NAME" x="74.765" y="45.974" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="74.765" y="42.799" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R5X22" library="SPCoast" package="0603-RES" value="1M" x="76.035" y="42.799" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.305" y="41.529" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="77.305" y="44.704" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R6X22" library="SPCoast" package="0603-RES" value="10K" x="81.115" y="46.609" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.385" y="45.339" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="82.385" y="48.514" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R7X22" library="SPCoast" package="0603-RES" value="10K" x="86.195" y="54.102" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.465" y="52.832" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="87.465" y="56.007" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R8X22" library="SPCoast" package="0603-RES" value="1M" x="86.195" y="46.482" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.465" y="45.212" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="87.465" y="48.387" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R9X22" library="SPCoast" package="ST-4" value="10K" x="94.45" y="51.435" smashed="yes" rot="R270"/>
+<element name="R10X22" library="SPCoast" package="0603-RES" value="2k2" x="95.085" y="43.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.355" y="44.45" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="93.18" y="44.45" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R11X22" library="SPCoast" package="PT-10S" value="10K" x="93.561" y="51.435" smashed="yes" rot="R270">
+<attribute name="NAME" x="97.3456" y="53.975" size="0.4064" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="89.3446" y="53.975" size="0.4064" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R12X22" library="SPCoast" package="TC33X" value="10K" x="94.577" y="51.435" smashed="yes" rot="R270">
+<attribute name="NAME" x="92.672" y="53.34" size="0.4064" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="92.672" y="48.895" size="0.4064" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="U$1X22" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="53.81" y="39.37" smashed="yes"/>
+<element name="U$2X22" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="89.37" y="59.69" smashed="yes"/>
+<element name="X1X22" library="SPCoast" package="TH-T4B" value="" x="69.685" y="54.61" smashed="yes"/>
+<element name="X2X22" library="SPCoast" package="M5300" value="" x="69.685" y="54.356" smashed="yes" rot="R90"/>
+<element name="C1X23" library="SPCoast" package="0603-CAP" value="1.0uF" x="65.875" y="72.644" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.145" y="71.374" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="67.145" y="74.549" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C2X23" library="SPCoast" package="0603-CAP" value="0.01uF" x="76.035" y="68.834" smashed="yes">
+<attribute name="NAME" x="74.765" y="70.104" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="74.765" y="66.929" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C3X23" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="72.644" smashed="yes">
+<attribute name="NAME" x="79.845" y="73.914" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="79.845" y="70.739" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="C4X23" library="SPCoast" package="0603-CAP" value="0.1uF" x="81.115" y="66.929" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.385" y="65.659" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="82.385" y="68.834" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="D1X23" library="SPCoast" package="SOT23" value="BAT54A" x="70.955" y="67.564" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.05" y="65.659" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="74.13" y="65.659" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D2X23" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="85.979" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.02" y="87.884" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="77.94" y="87.884" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="D3X23" library="SPCoast" package="SOT23" value="BAT54A" x="81.115" y="81.661" smashed="yes" rot="R90">
+<attribute name="NAME" x="79.21" y="79.756" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.29" y="79.756" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="D4X23" library="SPCoast" package="SOT23" value="BAT54C" x="81.115" y="77.724" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.02" y="79.629" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="77.94" y="79.629" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="FID1X23" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="51.905" y="88.9" smashed="yes">
+<attribute name="NAME" x="50" y="86.36" size="0.4064" layer="25"/>
+</element>
+<element name="FID2X23" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.625" y="65.405" smashed="yes">
+<attribute name="NAME" x="95.72" y="62.865" size="0.4064" layer="25"/>
+</element>
+<element name="IC1X23" library="SPCoast" package="SO-8" value="LM358D" x="86.195" y="69.723" smashed="yes" rot="R270">
+<attribute name="VALUE" x="82.1945" y="71.755" size="0.4064" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="88.9255" y="71.755" size="0.4064" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J1X23" library="SPCoast" package="1X05" value="" x="51.524" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.6952" y="72.3138" size="0.4064" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="54.699" y="72.39" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J2X23" library="SPCoast" package="KK-156-5" value="" x="57.747" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.652" y="70.86" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="59.652" y="92.97" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="LED1X23" library="SPCoast" package="0603-LED" value="Y" x="96.99" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.72" y="69.85" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="99.53" y="69.85" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q1X23" library="SPCoast" package="SOT23" value="2N7002" x="66.002" y="69.469" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.097" y="67.564" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="69.177" y="67.564" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R1X23" library="SPCoast" package="0603-RES" value="2M2" x="70.955" y="72.644" smashed="yes">
+<attribute name="NAME" x="69.685" y="73.914" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="69.685" y="70.739" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R2X23" library="SPCoast" package="0603-RES" value="10K" x="70.955" y="70.739" smashed="yes">
+<attribute name="NAME" x="69.685" y="72.009" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="69.685" y="68.834" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R3X23" library="SPCoast" package="0603-RES" value="10K" x="76.035" y="74.549" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.305" y="73.279" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="77.305" y="76.454" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R4X23" library="SPCoast" package="0603-RES" value="200R" x="76.035" y="72.644" smashed="yes">
+<attribute name="NAME" x="74.765" y="73.914" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="74.765" y="70.739" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="R5X23" library="SPCoast" package="0603-RES" value="1M" x="76.035" y="70.739" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.305" y="69.469" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="77.305" y="72.644" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R6X23" library="SPCoast" package="0603-RES" value="10K" x="81.115" y="74.549" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.385" y="73.279" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="82.385" y="76.454" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R7X23" library="SPCoast" package="0603-RES" value="10K" x="86.195" y="82.042" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.465" y="80.772" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="87.465" y="83.947" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R8X23" library="SPCoast" package="0603-RES" value="1M" x="86.195" y="74.422" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.465" y="73.152" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="87.465" y="76.327" size="0.4064" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R9X23" library="SPCoast" package="ST-4" value="10K" x="94.45" y="79.375" smashed="yes" rot="R270"/>
+<element name="R10X23" library="SPCoast" package="0603-RES" value="2k2" x="95.085" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.355" y="72.39" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="93.18" y="72.39" size="0.4064" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R11X23" library="SPCoast" package="PT-10S" value="10K" x="93.561" y="79.375" smashed="yes" rot="R270">
+<attribute name="NAME" x="97.3456" y="81.915" size="0.4064" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="89.3446" y="81.915" size="0.4064" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R12X23" library="SPCoast" package="TC33X" value="10K" x="94.577" y="79.375" smashed="yes" rot="R270">
+<attribute name="NAME" x="92.672" y="81.28" size="0.4064" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="92.672" y="76.835" size="0.4064" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="U$1X23" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="53.81" y="67.31" smashed="yes"/>
+<element name="U$2X23" library="SPCoast" package="MOUNTINGHOLE-L" value="MOUNTINGHOLEL" x="89.37" y="87.63" smashed="yes"/>
+<element name="X1X23" library="SPCoast" package="TH-T4B" value="" x="69.685" y="82.55" smashed="yes"/>
+<element name="X2X23" library="SPCoast" package="M5300" value="" x="69.685" y="82.296" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="!VOUTX11">
@@ -1841,13 +2215,13 @@ design rules under a new name.
 <contactref element="R12X11" pad="3"/>
 </signal>
 <signal name="STAGE1+X11">
-<wire x1="30.215" y1="16.013" x2="30.215" y2="18.669" width="0.254" layer="1"/>
+<wire x1="30.215" y1="16.764" x2="30.215" y2="18.669" width="0.254" layer="1"/>
 <wire x1="30.215" y1="18.669" x2="30.215" y2="18.785" width="0.254" layer="1"/>
 <wire x1="35.56" y1="16.5862" x2="35.56" y2="15.748" width="0.254" layer="1"/>
 <wire x1="35.56" y1="15.748" x2="35.306" y2="15.494" width="0.254" layer="1"/>
 <wire x1="35.306" y1="15.494" x2="30.734" y2="15.494" width="0.254" layer="1"/>
 <wire x1="30.734" y1="15.494" x2="30.215" y2="16.013" width="0.254" layer="1"/>
-<wire x1="31.115" y1="24.681" x2="31.115" y2="19.685" width="0.254" layer="1"/>
+<wire x1="31.115" y1="22.944" x2="31.115" y2="19.685" width="0.254" layer="1"/>
 <wire x1="31.115" y1="19.685" x2="30.215" y2="18.785" width="0.254" layer="1"/>
 <wire x1="30.215" y1="18.669" x2="26.935" y2="18.669" width="0.254" layer="1"/>
 <contactref element="IC1X11" pad="3"/>
@@ -1856,8 +2230,8 @@ design rules under a new name.
 <contactref element="C3X11" pad="1"/>
 <contactref element="D4X11" pad="3"/>
 <contactref element="D3X11" pad="3"/>
-<wire x1="31.115" y1="24.681" x2="31.115" y2="22.944" width="0" layer="19" extent="1-1"/>
-<wire x1="30.215" y1="16.764" x2="30.215" y2="16.013" width="0" layer="19" extent="1-1"/>
+<wire x1="31.115" y1="24.681" x2="31.115" y2="22.944" width="0.254" layer="1"/>
+<wire x1="30.215" y1="16.013" x2="30.215" y2="16.764" width="0.254" layer="1"/>
 </signal>
 <signal name="STAGE1-X11">
 <wire x1="36.83" y1="16.5862" x2="36.83" y2="15.367" width="0.254" layer="1"/>
@@ -2134,13 +2508,13 @@ design rules under a new name.
 <contactref element="R12X12" pad="3"/>
 </signal>
 <signal name="STAGE1+X12">
-<wire x1="30.215" y1="43.953" x2="30.215" y2="46.609" width="0.254" layer="1"/>
+<wire x1="30.215" y1="44.704" x2="30.215" y2="46.609" width="0.254" layer="1"/>
 <wire x1="30.215" y1="46.609" x2="30.215" y2="46.725" width="0.254" layer="1"/>
 <wire x1="35.56" y1="44.5262" x2="35.56" y2="43.688" width="0.254" layer="1"/>
 <wire x1="35.56" y1="43.688" x2="35.306" y2="43.434" width="0.254" layer="1"/>
 <wire x1="35.306" y1="43.434" x2="30.734" y2="43.434" width="0.254" layer="1"/>
 <wire x1="30.734" y1="43.434" x2="30.215" y2="43.953" width="0.254" layer="1"/>
-<wire x1="31.115" y1="52.621" x2="31.115" y2="47.625" width="0.254" layer="1"/>
+<wire x1="31.115" y1="50.884" x2="31.115" y2="47.625" width="0.254" layer="1"/>
 <wire x1="31.115" y1="47.625" x2="30.215" y2="46.725" width="0.254" layer="1"/>
 <wire x1="30.215" y1="46.609" x2="26.935" y2="46.609" width="0.254" layer="1"/>
 <contactref element="IC1X12" pad="3"/>
@@ -2149,8 +2523,8 @@ design rules under a new name.
 <contactref element="C3X12" pad="1"/>
 <contactref element="D4X12" pad="3"/>
 <contactref element="D3X12" pad="3"/>
-<wire x1="31.115" y1="52.621" x2="31.115" y2="50.884" width="0" layer="19" extent="1-1"/>
-<wire x1="30.215" y1="44.704" x2="30.215" y2="43.953" width="0" layer="19" extent="1-1"/>
+<wire x1="31.115" y1="52.621" x2="31.115" y2="50.884" width="0.254" layer="1"/>
+<wire x1="30.215" y1="43.953" x2="30.215" y2="44.704" width="0.254" layer="1"/>
 </signal>
 <signal name="STAGE1-X12">
 <wire x1="36.83" y1="44.5262" x2="36.83" y2="43.307" width="0.254" layer="1"/>
@@ -2427,13 +2801,13 @@ design rules under a new name.
 <contactref element="R12X13" pad="3"/>
 </signal>
 <signal name="STAGE1+X13">
-<wire x1="30.215" y1="71.893" x2="30.215" y2="74.549" width="0.254" layer="1"/>
+<wire x1="30.215" y1="72.644" x2="30.215" y2="74.549" width="0.254" layer="1"/>
 <wire x1="30.215" y1="74.549" x2="30.215" y2="74.665" width="0.254" layer="1"/>
 <wire x1="35.56" y1="72.4662" x2="35.56" y2="71.628" width="0.254" layer="1"/>
 <wire x1="35.56" y1="71.628" x2="35.306" y2="71.374" width="0.254" layer="1"/>
 <wire x1="35.306" y1="71.374" x2="30.734" y2="71.374" width="0.254" layer="1"/>
 <wire x1="30.734" y1="71.374" x2="30.215" y2="71.893" width="0.254" layer="1"/>
-<wire x1="31.115" y1="80.561" x2="31.115" y2="75.565" width="0.254" layer="1"/>
+<wire x1="31.115" y1="78.824" x2="31.115" y2="75.565" width="0.254" layer="1"/>
 <wire x1="31.115" y1="75.565" x2="30.215" y2="74.665" width="0.254" layer="1"/>
 <wire x1="30.215" y1="74.549" x2="26.935" y2="74.549" width="0.254" layer="1"/>
 <contactref element="IC1X13" pad="3"/>
@@ -2442,8 +2816,8 @@ design rules under a new name.
 <contactref element="C3X13" pad="1"/>
 <contactref element="D4X13" pad="3"/>
 <contactref element="D3X13" pad="3"/>
-<wire x1="31.115" y1="80.561" x2="31.115" y2="78.824" width="0" layer="19" extent="1-1"/>
-<wire x1="30.215" y1="72.644" x2="30.215" y2="71.893" width="0" layer="19" extent="1-1"/>
+<wire x1="31.115" y1="80.561" x2="31.115" y2="78.824" width="0.254" layer="1"/>
+<wire x1="30.215" y1="71.893" x2="30.215" y2="72.644" width="0.254" layer="1"/>
 </signal>
 <signal name="STAGE1-X13">
 <wire x1="36.83" y1="72.4662" x2="36.83" y2="71.247" width="0.254" layer="1"/>
@@ -2720,13 +3094,14 @@ design rules under a new name.
 <contactref element="R12X21" pad="3"/>
 </signal>
 <signal name="STAGE1+X21">
-<wire x1="80.215" y1="16.013" x2="80.215" y2="18.669" width="0.254" layer="1"/>
+<wire x1="80.215" y1="16.013" x2="80.215" y2="16.51" width="0.254" layer="1"/>
+<wire x1="80.215" y1="16.764" x2="80.215" y2="18.669" width="0.254" layer="1"/>
 <wire x1="80.215" y1="18.669" x2="80.215" y2="18.785" width="0.254" layer="1"/>
 <wire x1="85.56" y1="16.5862" x2="85.56" y2="15.748" width="0.254" layer="1"/>
 <wire x1="85.56" y1="15.748" x2="85.306" y2="15.494" width="0.254" layer="1"/>
 <wire x1="85.306" y1="15.494" x2="80.734" y2="15.494" width="0.254" layer="1"/>
 <wire x1="80.734" y1="15.494" x2="80.215" y2="16.013" width="0.254" layer="1"/>
-<wire x1="81.115" y1="24.681" x2="81.115" y2="19.685" width="0.254" layer="1"/>
+<wire x1="81.115" y1="22.944" x2="81.115" y2="19.685" width="0.254" layer="1"/>
 <wire x1="81.115" y1="19.685" x2="80.215" y2="18.785" width="0.254" layer="1"/>
 <wire x1="80.215" y1="18.669" x2="76.935" y2="18.669" width="0.254" layer="1"/>
 <contactref element="IC1X21" pad="3"/>
@@ -2735,8 +3110,8 @@ design rules under a new name.
 <contactref element="C3X21" pad="1"/>
 <contactref element="D4X21" pad="3"/>
 <contactref element="D3X21" pad="3"/>
-<wire x1="81.115" y1="24.681" x2="81.115" y2="22.944" width="0" layer="19" extent="1-1"/>
-<wire x1="80.215" y1="16.764" x2="80.215" y2="16.013" width="0" layer="19" extent="1-1"/>
+<wire x1="81.115" y1="24.681" x2="81.115" y2="22.944" width="0.254" layer="1"/>
+<wire x1="80.215" y1="16.764" x2="80.215" y2="16.51" width="0.254" layer="1"/>
 </signal>
 <signal name="STAGE1-X21">
 <wire x1="86.83" y1="16.5862" x2="86.83" y2="15.367" width="0.254" layer="1"/>
@@ -3013,13 +3388,13 @@ design rules under a new name.
 <contactref element="R12X22" pad="3"/>
 </signal>
 <signal name="STAGE1+X22">
-<wire x1="80.215" y1="43.953" x2="80.215" y2="46.609" width="0.254" layer="1"/>
+<wire x1="80.215" y1="44.704" x2="80.215" y2="46.609" width="0.254" layer="1"/>
 <wire x1="80.215" y1="46.609" x2="80.215" y2="46.725" width="0.254" layer="1"/>
 <wire x1="85.56" y1="44.5262" x2="85.56" y2="43.688" width="0.254" layer="1"/>
 <wire x1="85.56" y1="43.688" x2="85.306" y2="43.434" width="0.254" layer="1"/>
 <wire x1="85.306" y1="43.434" x2="80.734" y2="43.434" width="0.254" layer="1"/>
 <wire x1="80.734" y1="43.434" x2="80.215" y2="43.953" width="0.254" layer="1"/>
-<wire x1="81.115" y1="52.621" x2="81.115" y2="47.625" width="0.254" layer="1"/>
+<wire x1="81.115" y1="50.884" x2="81.115" y2="47.625" width="0.254" layer="1"/>
 <wire x1="81.115" y1="47.625" x2="80.215" y2="46.725" width="0.254" layer="1"/>
 <wire x1="80.215" y1="46.609" x2="76.935" y2="46.609" width="0.254" layer="1"/>
 <contactref element="IC1X22" pad="3"/>
@@ -3028,8 +3403,8 @@ design rules under a new name.
 <contactref element="C3X22" pad="1"/>
 <contactref element="D4X22" pad="3"/>
 <contactref element="D3X22" pad="3"/>
-<wire x1="81.115" y1="52.621" x2="81.115" y2="50.884" width="0" layer="19" extent="1-1"/>
-<wire x1="80.215" y1="44.704" x2="80.215" y2="43.953" width="0" layer="19" extent="1-1"/>
+<wire x1="81.115" y1="52.621" x2="81.115" y2="50.884" width="0.254" layer="1"/>
+<wire x1="80.215" y1="43.953" x2="80.215" y2="44.704" width="0.254" layer="1"/>
 </signal>
 <signal name="STAGE1-X22">
 <wire x1="86.83" y1="44.5262" x2="86.83" y2="43.307" width="0.254" layer="1"/>
@@ -3306,13 +3681,13 @@ design rules under a new name.
 <contactref element="R12X23" pad="3"/>
 </signal>
 <signal name="STAGE1+X23">
-<wire x1="80.215" y1="71.893" x2="80.215" y2="74.549" width="0.254" layer="1"/>
+<wire x1="80.215" y1="72.644" x2="80.215" y2="74.549" width="0.254" layer="1"/>
 <wire x1="80.215" y1="74.549" x2="80.215" y2="74.665" width="0.254" layer="1"/>
 <wire x1="85.56" y1="72.4662" x2="85.56" y2="71.628" width="0.254" layer="1"/>
 <wire x1="85.56" y1="71.628" x2="85.306" y2="71.374" width="0.254" layer="1"/>
 <wire x1="85.306" y1="71.374" x2="80.734" y2="71.374" width="0.254" layer="1"/>
 <wire x1="80.734" y1="71.374" x2="80.215" y2="71.893" width="0.254" layer="1"/>
-<wire x1="81.115" y1="80.561" x2="81.115" y2="75.565" width="0.254" layer="1"/>
+<wire x1="81.115" y1="78.824" x2="81.115" y2="75.565" width="0.254" layer="1"/>
 <wire x1="81.115" y1="75.565" x2="80.215" y2="74.665" width="0.254" layer="1"/>
 <wire x1="80.215" y1="74.549" x2="76.935" y2="74.549" width="0.254" layer="1"/>
 <contactref element="IC1X23" pad="3"/>
@@ -3321,8 +3696,8 @@ design rules under a new name.
 <contactref element="C3X23" pad="1"/>
 <contactref element="D4X23" pad="3"/>
 <contactref element="D3X23" pad="3"/>
-<wire x1="81.115" y1="80.561" x2="81.115" y2="78.824" width="0" layer="19" extent="1-1"/>
-<wire x1="80.215" y1="72.644" x2="80.215" y2="71.893" width="0" layer="19" extent="1-1"/>
+<wire x1="81.115" y1="80.561" x2="81.115" y2="78.824" width="0.254" layer="1"/>
+<wire x1="80.215" y1="71.893" x2="80.215" y2="72.644" width="0.254" layer="1"/>
 </signal>
 <signal name="STAGE1-X23">
 <wire x1="86.83" y1="72.4662" x2="86.83" y2="71.247" width="0.254" layer="1"/>
